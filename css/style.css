@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     font-family: 'Be Vietnam Pro';
     font-size: 16px;
 }
 body{
     font-size: 10px;
     background-image: url('../img/bg-tablet-pattern.svg');
-    background-repeat:repeat-y;
+    background-repeat:no-repeat;
 }
+
 .first-container{
     display: flex;
     flex-direction: column;
@@ -35,7 +36,8 @@ padding-right: 50px;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 125px;
-    padding: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 h1{
@@ -113,13 +115,29 @@ h3{
     justify-content: center;
     margin-bottom: 75px;
 }
+h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    color: #323851;
+    margin-bottom: 10px;  
+}
+.img-encuesta{
+    width: 900px;
+    height: 400px;
+    margin-bottom: 50px;
+}
 footer{
+    display: flex;
     height: 50px;
     background-color: #1E1E26;
     color:white;
     padding-left: 10px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+.copy{
+    size: 100px;
 }
 
 @media (max-width:1100px){
@@ -139,7 +157,7 @@ footer{
         margin:10px;
     }
     h1{
-        font-size: 35px;
+        font-size: 20px;
         text-align: center;
     }
     .illustration{
@@ -186,6 +204,13 @@ footer{
     }
     h3{
         font-size: 32px;
+    }
+    h4{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 23px;
+        color: #323851;
+        margin-bottom: 10px;  
     }
     footer{
         display: flex;
