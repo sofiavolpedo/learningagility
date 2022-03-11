@@ -150,8 +150,6 @@ footer{
     }
     .second-container{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin:10px;
     }
     h1{
@@ -172,7 +170,11 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    
+    .img-encuesta{
+        width: 600px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
     .style-p{
         font-size: 14px;
     }
