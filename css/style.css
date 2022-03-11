@@ -152,9 +152,15 @@ footer{
         flex-direction: column;
         margin:10px;
     }
+    .icon-user{
+        width: 5vh;
+    }
     h1{
         font-size: 20px;
         text-align: center;
+    }
+    .div-title{
+        width: 40vh;
     }
     .illustration{
         width: 80vw;
@@ -211,6 +217,10 @@ footer{
         line-height: 23px;
         color: #323851;
         margin-bottom: 10px;  
+    }
+    .video-responsive{
+        width: 40vh;
+        height: 20vh;
     }
     footer{
         display: flex;
