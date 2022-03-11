@@ -55,9 +55,7 @@ h1{
 .third-container{
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 50px;
-    margin-bottom: 100px;
+
 }
 h2{
     font-size: 36px;
